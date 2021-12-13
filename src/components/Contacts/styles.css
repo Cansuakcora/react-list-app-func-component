@@ -1,0 +1,44 @@
+.container{
+    width: 400px;
+    padding: 2rem;
+    background-color: aliceblue;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list{
+    margin: 15px 0;
+}
+
+.list li{
+    background-color: bisque;
+    margin-bottom: 4px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    margin-left: auto;
+    margin-top: .5rem;
+    display: flex;
+    width: 100%;
+    max-width: 60px;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: .5rem 0;
+}
